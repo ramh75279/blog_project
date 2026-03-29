@@ -26,7 +26,7 @@ function Blogs() {
             }
         })
 
-        axios.get("http://localhost:5000/api/blogs").then((res) => {
+        axios.get("https://blog-project-backend-a7b6.onrender.com/api/blogs").then((res) => {
             console.log(res.data)
             setBlogs(res.data)
         }).catch(() => {

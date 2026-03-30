@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './common/Navbar'
+//import Navbar from './common/Navbar'
 import BlogProfileImage from "../assets/Blog Website Design.jpg"
 import CSS from "../assets/css-3.png"
 import HTML from "../assets/html.png"
@@ -74,11 +74,9 @@ function Home() {
                 <h2 className='text-center text-5xl my-14 font-bold'>Checkout My Live <span className='text-orange-400'>Projects</span> Here</h2>
                 <div className='flex justify-around my-5 flex-col sm:flex-row'>
 
-                    <img src={P1} className='w-64 border rounded-md cursor-pointer' alt="" />
-
-                    <img src={P2} className='w-64 border rounded-md cursor-pointer' alt="" />
-
-                    <img src={P3} className='w-64 border rounded-md cursor-pointer' alt="" />
+                    <img src={P1} className='w-64 border rounded-md cursor-pointer' alt="Project 1" />
+                    <img src={P2} className='w-64 border rounded-md cursor-pointer' alt="Project 2" />
+                    <img src={P3} className='w-64 border rounded-md cursor-pointer' alt="Project 3" />
 
                 </div>
             </div>

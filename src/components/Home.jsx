@@ -28,7 +28,7 @@ function Home() {
                     <button className='button-style mt-2'>Hire Me</button>
                 </div>
                 <div className='justify-center hidden sm:block'>
-                    <img src={BlogProfileImage} className='w-60 md:w-96 ' alt="Blog Profile Image" />
+                    <img src={BlogProfileImage} className='w-60 md:w-96 ' alt="Blog Profile" />
 
                 </div>
 
@@ -84,7 +84,7 @@ function Home() {
 
             <div className='flex items-center justify-center my-14'>
                 <div className='justify-center hidden sm:block'>
-                    <img src={BlogImage} className='w-60 md:w-96 ' alt="Blog Profile Image" />
+                    <img src={BlogImage} className='w-60 md:w-96 ' alt="Blog" />
 
                 </div>
                 <div className="w-full sm:w-1/2 flex-col justify-center ml-6">
